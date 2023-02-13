@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .App {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  .app-header {
+    text-align: center;
+    background-color: #3b5998;
+    color: white;
+    width: 100%;
+  }
+  
+  .app-container {
+    margin-top: 50px;
+  }
+  .chat-room-container{
+    background: pink ;
+  }
+  .select-room-container{
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #494b4a;
+    box-shadow:  20px 20px 60px #2c2e2d,
+             -20px -20px 60px #5e605f;
+             height: 200px;
+             width: 450px;
+             text-align: center;
+             font-size: 25px;
+             font-weight: 600;
+             border-radius: 10px;
+             padding: 20px;
+  }
+
+  .select-room-container p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: aliceblue;
+  }
+  
+
+  .select-room-container input{
+    height: 30px;
+    width: 270px;
+  }
+
+  .select-room-container button{
+    height: 36px;
+    width: 120px;
+    margin-left: 10px;
+     margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .enter-room-heading{
+    font-family: 'Oleo Script', cursive;
+    margin: 0;
+    color: aliceblue;
+    font-size: 60px;
+    text-align: center;
+  }
+
+ .sign-out button{
+  margin: 20px;
+  background: #2d2e2e;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+ }

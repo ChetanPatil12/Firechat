@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+body{
+    background: #494b4a;
+}
+
+.auth{
+    
+background: #494b4a;
+box-shadow:  20px 20px 60px #2c2e2d,
+             -20px -20px 60px #5e605f;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.auth p{
+    margin-top: 70px;
+    color: rgb(202, 203, 205);
+}
+.auth button{
+    height: 40px;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background: rgb(220, 220, 220);
+}
+
+.auth button:hover{
+    cursor: pointer;
+    background:rgb(192, 192, 192) ;
+}
+
+
+.authpage h1{
+    font-family: 'Oleo Script', cursive;
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 60px;
+}
